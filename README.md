@@ -1,3 +1,3 @@
-# telegram-messages-magic
+# telegram-magic
 
 Тут происходит магия с сообщениями телеги...
