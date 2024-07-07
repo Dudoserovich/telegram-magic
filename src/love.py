@@ -30,9 +30,6 @@ async def process_love(event: NewMessage.Event):
         await asyncio.sleep(EDIT_DELAY)
         result = result[:-len(random_hearth)]
 
-    # Сердечко горит
-
-
     await client.send_file(entity=chat, file=f"img/{choice(images)}")
 
 
